@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BDA205AD-6C04-4733-A463-80BE069237C3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WindowsFormsApplication1.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="config.cs" />
+    <Compile Include="frmMainSub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainSub.Designer.cs">
+      <DependentUpon>frmMainSub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckStatus.Designer.cs">
+      <DependentUpon>frmCheckStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTraining.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTraining.Designer.cs">
+      <DependentUpon>frmTraining.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLog.Designer.cs">
+      <DependentUpon>frmLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="internet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="internet.Designer.cs">
+      <DependentUpon>internet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="intranet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="intranet.Designer.cs">
+      <DependentUpon>intranet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="settings.cs" />
+    <Compile Include="levelsettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="levelsettings.Designer.cs">
+      <DependentUpon>levelsettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="applicationSingleton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="applicationSingleton.Designer.cs">
+      <DependentUpon>applicationSingleton.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainSub.resx">
+      <DependentUpon>frmMainSub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckStatus.resx">
+      <DependentUpon>frmCheckStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTraining.resx">
+      <DependentUpon>frmTraining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLog.resx">
+      <DependentUpon>frmLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="internet.resx">
+      <DependentUpon>internet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="intranet.resx">
+      <DependentUpon>intranet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="levelsettings.resx">
+      <DependentUpon>levelsettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="applicationSingleton.resx">
+      <DependentUpon>applicationSingleton.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="appconf.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
