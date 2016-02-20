@@ -40,6 +40,10 @@ namespace WindowsFormsApplication1
                 apps[i1].levelnum.Text = (i1+1).ToString();
                 apps[i1].Location = new Point(0, (i1) * 38);
                 apps[i1].appnamebtn.Text = gSettings[i1].getval("name");
+<<<<<<< HEAD
+                apps[i1].fname = gSettings[i1].getval("executable");
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
                
                 panel1.Controls.Add(apps[i1]);
                 
@@ -50,6 +54,11 @@ namespace WindowsFormsApplication1
 
                 // check application status (initial)
 
+<<<<<<< HEAD
+             
+               
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             }
             apps[gSettings.Length] = new applicationSingleton();
             apps[gSettings.Length].levelnum.Text = (gSettings.Length + 1 ).ToString();
@@ -155,7 +164,11 @@ namespace WindowsFormsApplication1
             AdminForm fourthForm = new AdminForm();
             this.Hide();
             fourthForm.ShowDialog();
+<<<<<<< HEAD
+           // this.Show();
+=======
             this.Show();
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
         }
 
         private void button7_Click(object sender, EventArgs e)

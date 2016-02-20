@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+﻿using System;
+=======
 using System;
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -42,13 +46,23 @@ namespace WindowsFormsApplication1
                 apps[i1].Location = new Point(0, (i1) * 38);
                 apps[i1].appnamebtn.Text = gSettings[i1].getval("name");
                 apps[i1].frequnc.Text = gSettings[i1].getval("maincheck");
+<<<<<<< HEAD
+                apps[i1].fname = gSettings[i1].getval("executable");
+                apps[i1].this_setting = gSettings[i1];
+                
+=======
 
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
                 panel1.Controls.Add(apps[i1]);
 
                 // read application settings..
                 gSettings[i1].getSettings();
 
+<<<<<<< HEAD
+                apps[i1].runcheckFromLast(gSettings[i1]);
+=======
                 apps[i1].runcheck(gSettings[i1]);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
 
                 // check application status (initial)
 
@@ -67,6 +81,11 @@ namespace WindowsFormsApplication1
             apps[gSettings.Length + 1].appnamebtn.Text = "Intranet";
 
             panel1.Controls.Add(apps[gSettings.Length + 1]);
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
         }
 
         private void button4_Click(object sender, EventArgs e)

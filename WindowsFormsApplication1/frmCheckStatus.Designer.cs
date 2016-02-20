@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+﻿namespace WindowsFormsApplication1
+=======
 namespace WindowsFormsApplication1
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
 {
     partial class frmCheckStatus
     {
@@ -78,7 +82,11 @@ namespace WindowsFormsApplication1
             // 
             this.button4.Location = new System.Drawing.Point(495, 23);
             this.button4.Name = "button4";
+<<<<<<< HEAD
+            this.button4.Size = new System.Drawing.Size(104, 24);
+=======
             this.button4.Size = new System.Drawing.Size(88, 24);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.button4.TabIndex = 41;
             this.button4.Text = "Check ALL";
             this.button4.UseVisualStyleBackColor = true;
@@ -87,7 +95,11 @@ namespace WindowsFormsApplication1
             // label18
             // 
             this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+<<<<<<< HEAD
+            this.label18.Location = new System.Drawing.Point(488, 13);
+=======
             this.label18.Location = new System.Drawing.Point(479, 13);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(118, 44);
             this.label18.TabIndex = 83;
@@ -148,7 +160,11 @@ namespace WindowsFormsApplication1
             // panel1
             // 
             this.panel1.AutoScroll = true;
+<<<<<<< HEAD
+            this.panel1.Location = new System.Drawing.Point(13, 56);
+=======
             this.panel1.Location = new System.Drawing.Point(13, 57);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(615, 198);
             this.panel1.TabIndex = 201;
@@ -192,4 +208,8 @@ namespace WindowsFormsApplication1
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c

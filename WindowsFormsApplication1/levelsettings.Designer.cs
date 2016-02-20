@@ -85,6 +85,11 @@
             this.label54 = new System.Windows.Forms.Label();
             this.app1_name = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+            this.label14 = new System.Windows.Forms.Label();
+            this.textExec = new System.Windows.Forms.TextBox();
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             ((System.ComponentModel.ISupportInitialize)(this.app1_check_run_down)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.app1_check_run)).BeginInit();
             this.groupBox4.SuspendLayout();
@@ -104,7 +109,11 @@
             // 
             // app1_check_run_down
             // 
+<<<<<<< HEAD
+            this.app1_check_run_down.Location = new System.Drawing.Point(344, 81);
+=======
             this.app1_check_run_down.Location = new System.Drawing.Point(344, 67);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.app1_check_run_down.Name = "app1_check_run_down";
             this.app1_check_run_down.Size = new System.Drawing.Size(42, 20);
             this.app1_check_run_down.TabIndex = 29;
@@ -112,7 +121,11 @@
             // label53
             // 
             this.label53.AutoSize = true;
+<<<<<<< HEAD
+            this.label53.Location = new System.Drawing.Point(123, 83);
+=======
             this.label53.Location = new System.Drawing.Point(123, 69);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(213, 13);
             this.label53.TabIndex = 28;
@@ -121,7 +134,11 @@
             // label52
             // 
             this.label52.AutoSize = true;
+<<<<<<< HEAD
+            this.label52.Location = new System.Drawing.Point(408, 83);
+=======
             this.label52.Location = new System.Drawing.Point(408, 69);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(49, 13);
             this.label52.TabIndex = 25;
@@ -130,7 +147,11 @@
             // label51
             // 
             this.label51.AutoSize = true;
+<<<<<<< HEAD
+            this.label51.Location = new System.Drawing.Point(266, 62);
+=======
             this.label51.Location = new System.Drawing.Point(266, 48);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(49, 13);
             this.label51.TabIndex = 26;
@@ -138,7 +159,11 @@
             // 
             // app1_check_run
             // 
+<<<<<<< HEAD
+            this.app1_check_run.Location = new System.Drawing.Point(218, 60);
+=======
             this.app1_check_run.Location = new System.Drawing.Point(218, 46);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.app1_check_run.Name = "app1_check_run";
             this.app1_check_run.Size = new System.Drawing.Size(42, 20);
             this.app1_check_run.TabIndex = 27;
@@ -146,7 +171,11 @@
             // label50
             // 
             this.label50.AutoSize = true;
+<<<<<<< HEAD
+            this.label50.Location = new System.Drawing.Point(124, 62);
+=======
             this.label50.Location = new System.Drawing.Point(124, 48);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(92, 13);
             this.label50.TabIndex = 24;
@@ -478,7 +507,11 @@
             // 
             // app1_app_down_file
             // 
+<<<<<<< HEAD
+            this.app1_app_down_file.Location = new System.Drawing.Point(245, 107);
+=======
             this.app1_app_down_file.Location = new System.Drawing.Point(245, 93);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.app1_app_down_file.Name = "app1_app_down_file";
             this.app1_app_down_file.Size = new System.Drawing.Size(261, 20);
             this.app1_app_down_file.TabIndex = 22;
@@ -611,7 +644,11 @@
             // label54
             // 
             this.label54.AutoSize = true;
+<<<<<<< HEAD
+            this.label54.Location = new System.Drawing.Point(124, 110);
+=======
             this.label54.Location = new System.Drawing.Point(124, 96);
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(109, 13);
             this.label54.TabIndex = 16;
@@ -633,10 +670,35 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "Application Name";
             // 
+<<<<<<< HEAD
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(19, 44);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(104, 13);
+            this.label14.TabIndex = 30;
+            this.label14.Text = "Executable Location";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
+            // textExec
+            // 
+            this.textExec.Location = new System.Drawing.Point(126, 39);
+            this.textExec.Name = "textExec";
+            this.textExec.Size = new System.Drawing.Size(289, 20);
+            this.textExec.TabIndex = 31;
+            // 
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             // levelsettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
+            this.Controls.Add(this.textExec);
+            this.Controls.Add(this.label14);
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             this.Controls.Add(this.app1_check_run_down);
             this.Controls.Add(this.label53);
             this.Controls.Add(this.label52);
@@ -737,5 +799,10 @@
         public System.Windows.Forms.TextBox app1_cond1_fname;
         public System.Windows.Forms.CheckBox app1_cond1_stat;
         public System.Windows.Forms.TextBox app1_name;
+<<<<<<< HEAD
+        private System.Windows.Forms.Label label14;
+        public System.Windows.Forms.TextBox textExec;
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
     }
 }

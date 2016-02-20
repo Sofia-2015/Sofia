@@ -60,6 +60,15 @@ namespace WindowsFormsApplication1
             this.app1_serv_cond_name.Text = syncSetting.getval("servername");
             this.app1_serv_cond_nick.Text = syncSetting.getval("servernickname");
             this.app1_serv_cond_ip.Text = syncSetting.getval("serverip");
+<<<<<<< HEAD
+            this.textExec.Text = syncSetting.getval("executable");
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
 
         }
     }

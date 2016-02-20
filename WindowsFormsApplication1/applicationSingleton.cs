@@ -16,6 +16,15 @@ namespace WindowsFormsApplication1
 {
     public partial class applicationSingleton : UserControl
     {
+<<<<<<< HEAD
+        public String fname;
+        public Boolean appStatus;
+        public String applog;
+        public DateTime currentTime;
+
+
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
         public applicationSingleton()
         {
             InitializeComponent();
@@ -23,10 +32,19 @@ namespace WindowsFormsApplication1
 
         public void runcheck(settings AppSetting)
         {
+<<<<<<< HEAD
+            appStatus = true;
+
+            applog = "";
+            currentTime = DateTime.Now;
+
+
+=======
             Boolean appStatus = true;
 
             String applog = "";
             DateTime currentTime = DateTime.Now;
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
 
             if(AppSetting.getval("appdownfile") != "")
             {
@@ -259,7 +277,11 @@ namespace WindowsFormsApplication1
                
             }
 
+<<<<<<< HEAD
+            Program.logList.Add(new logs(AppSetting.getval("name"), appStatus.ToString(), applog));
+=======
 
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             lastchecktime.Text = DateTime.Now.Hour.ToString() + ":" + DateTime.Now.Minute.ToString();
             
            // aTimer.Elapsed += this.runcheck(AppSetting);
@@ -270,6 +292,17 @@ namespace WindowsFormsApplication1
 
         }
 
+<<<<<<< HEAD
+        private void appnamebtn_Click(object sender, EventArgs e)
+        {
+            if(fname != "")
+            {
+                System.Diagnostics.Process.Start(fname);
+            }
+        }
+
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
 
     }
 }
