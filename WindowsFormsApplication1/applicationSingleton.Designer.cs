@@ -43,6 +43,10 @@
             this.appnamebtn.Size = new System.Drawing.Size(288, 21);
             this.appnamebtn.TabIndex = 200;
             this.appnamebtn.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+            this.appnamebtn.Click += new System.EventHandler(this.appnamebtn_Click);
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             // 
             // label3
             // 

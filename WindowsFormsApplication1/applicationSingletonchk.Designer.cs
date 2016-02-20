@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+﻿namespace WindowsFormsApplication1
+=======
 namespace WindowsFormsApplication1
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
 {
     partial class applicationSingletonchk
     {
@@ -46,6 +50,10 @@ namespace WindowsFormsApplication1
             this.appnamebtn.Size = new System.Drawing.Size(288, 21);
             this.appnamebtn.TabIndex = 200;
             this.appnamebtn.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+            this.appnamebtn.Click += new System.EventHandler(this.appnamebtn_Click);
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             // 
             // label3
             // 
@@ -100,6 +108,10 @@ namespace WindowsFormsApplication1
             this.button1.TabIndex = 202;
             this.button1.Text = "Check";
             this.button1.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             // 
             // label1
             // 

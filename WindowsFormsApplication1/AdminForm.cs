@@ -74,7 +74,11 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+           
+=======
             MessageBox.Show("tabs " + tabControl1.TabCount.ToString());
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             
             for (int i = 0; i < tabControl1.TabCount -2; i++)
             {
@@ -83,6 +87,10 @@ namespace WindowsFormsApplication1
                 this.setting[i].setval("total_levels", tabControl1.TabCount.ToString());
                 this.setting[i].setval("name", this.levels[i].app1_name.Text);
                 this.setting[i].setval("maincheck", this.levels[i].app1_check_run.Value.ToString());
+<<<<<<< HEAD
+               
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
                 this.setting[i].setval("downcheck", this.levels[i].app1_check_run_down.Value.ToString());
                 this.setting[i].setval("appdownfile", this.levels[i].app1_app_down_file.Text);
 
@@ -123,14 +131,25 @@ namespace WindowsFormsApplication1
                 this.setting[i].setval("servername", this.levels[i].app1_serv_cond_name.Text);
                 this.setting[i].setval("servernickname", this.levels[i].app1_serv_cond_nick.Text);
                 this.setting[i].setval("serverip", this.levels[i].app1_serv_cond_ip.Text);
+<<<<<<< HEAD
+                this.setting[i].setval("executable", this.levels[i].textExec.Text);
+
+=======
                 
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
 
 
                 this.setting[i].savesetting();
             }
 
 
+<<<<<<< HEAD
+            this.Hide();
+            frmMainSub newform = new frmMainSub();
+            newform.Show();
+=======
             this.Close();
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
         }
 
         private void button2_Click(object sender, EventArgs e)

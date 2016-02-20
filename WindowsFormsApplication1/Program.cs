@@ -9,15 +9,27 @@ using Ini;
 
 namespace WindowsFormsApplication1
 {
+<<<<<<< HEAD
+    public static class Program
+    {
+        static int level_num;
+        public static List<logs> logList;
+
+=======
     static class Program
     {
         static int level_num;
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
         {
+<<<<<<< HEAD
+            logList = new List<logs>();
+=======
+>>>>>>> 23aafe51aca8c9e2bf4d6a27514311d2fcdc0d4c
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
